@@ -51,33 +51,36 @@ This table stores information about blood bank locations, services, and contact 
 
  Column Name               Description |
 -----------------------------------------------------------------------------
- `bank_id`                 Unique identifier for each blood bank. 
- `blood_bank_name`         Name of the blood bank. 
- `state`                   The state where the blood bank is located. 
- `district`                The district where the blood bank is located. 
- `city`                    The city where the blood bank is located. 
- `address`                 The full address of the blood bank. 
- `pincode`                 The postal code of the blood bank's location. 
- `contact_no`              Primary contact number for the blood bank. 
- `mobile`                  Mobile number for urgent contact. 
- `helpline`                Helpline number for public inquiries. 
- `fax`                     Fax number (if available). 
- `email`                   Email address for the blood bank. 
- `website`                 Website link for the blood bank. 
- `nodal_officer`           Name of the nodal officer in charge. 
- `contact_nodal_officer`   Contact number of the nodal officer. 
- `mobile_nodal_officer`    Mobile number of the nodal officer. 
- `email_nodal_officer`     Email of the nodal officer. 
- `qualification_nodal_officer`   Qualifications of the nodal officer. 
- `category`                Type of blood bank (e.g., Government, Charity). 
- `blood_component`         Indicates whether blood components are available. 
- `apheresis`               Indicates whether apheresis services are available. 
- `service_time`            Operating hours of the blood bank (e.g., 24x7, Business Hours). 
- `license_no`              License number of the blood bank. 
- `date_license_obtained`   Date when the license was obtained. 
- `date_of_renewal`         Last renewal date of the license. 
- `latitude`                Latitude coordinates of the blood bank. 
- `longitude`               Longitude coordinates of the blood bank. 
+| Column Name              | Data Type | Description |
+|--------------------------|-----------|-------------|
+| `bank_id`                | INT (PK)  | Unique identifier for each blood bank. |
+| `blood_bank_name`        | VARCHAR   | Name of the blood bank. |
+| `state`                  | VARCHAR   | The state where the blood bank is located. |
+| `district`               | VARCHAR   | The district where the blood bank is located. |
+| `city`                   | VARCHAR   | The city where the blood bank is located. |
+| `address`                | TEXT      | The full address of the blood bank. |
+| `pincode`                | VARCHAR   | The postal code of the blood bank's location. |
+| `contact_no`             | VARCHAR   | Primary contact number for the blood bank. |
+| `mobile`                 | VARCHAR   | Mobile number for urgent contact. |
+| `helpline`               | VARCHAR   | Helpline number for public inquiries. |
+| `fax`                    | VARCHAR   | Fax number (if available). |
+| `email`                  | VARCHAR   | Email address for the blood bank. |
+| `website`                | VARCHAR   | Website link for the blood bank. |
+| `nodal_officer`          | VARCHAR   | Name of the nodal officer in charge. |
+| `contact_nodal_officer`  | VARCHAR   | Contact number of the nodal officer. |
+| `mobile_nodal_officer`   | VARCHAR   | Mobile number of the nodal officer. |
+| `email_nodal_officer`    | VARCHAR   | Email of the nodal officer. |
+| `qualification_nodal_officer` | VARCHAR | Qualifications of the nodal officer. |
+| `category`               | VARCHAR   | Type of blood bank (e.g., Government, Charity). |
+| `blood_component`        | VARCHAR   | Indicates whether blood components are available. |
+| `apheresis`              | VARCHAR   | Indicates whether apheresis services are available. |
+| `service_time`           | VARCHAR   | Operating hours of the blood bank (e.g., 24x7, Business Hours). |
+| `license_no`             | VARCHAR   | License number of the blood bank. |
+| `date_license_obtained`  | DATE      | Date when the license was obtained. |
+| `date_of_renewal`        | DATE      | Last renewal date of the license. |
+| `latitude`               | DECIMAL   | Latitude coordinates of the blood bank. |
+| `longitude`              | DECIMAL   | Longitude coordinates of the blood bank. |
+
 
 
 
